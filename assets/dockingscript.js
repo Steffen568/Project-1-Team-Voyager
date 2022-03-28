@@ -9,8 +9,6 @@ function eventData() {
                 console.log(response);
                 displayEventData(data);
             });
-        } else {
-            alert("ERROR!");
         }
     });
 }

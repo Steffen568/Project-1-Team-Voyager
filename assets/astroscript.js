@@ -8,9 +8,7 @@ function astronautData() {
                 console.log(data);
                 displayAstronautData(data);
             });
-        } else {
-            alert("ERROR!");
-        }
+        } 
     });
 }
 

@@ -125,8 +125,6 @@ function upcomingLaunchData() {
       response.json().then(function (data) {
         displayLaunchInfo(data);
       });
-    } else {
-      alert("ERROR!");
     }
   });
 }
@@ -246,8 +244,6 @@ function fetchIssData() {
         console.log(data);
         displayIssInfo(data);
       });
-    } else {
-      alert("ERROR!");
     }
   });
 }

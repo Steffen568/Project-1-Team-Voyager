@@ -152,7 +152,6 @@ p {
 }
 
 .apodMainImage {
-
   width:fit-content;
   height:fit-content;
   margin: auto;
@@ -162,6 +161,20 @@ p {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   transform-style: preserve-3d;
   transform: perspective(1000px);
+}
+
+@media screen and (max-width: 820px) {
+  .apodImg {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .apodImg {
+    max-width: 300px;
+    max-height: 300px;
+  }
 }
 
 .launching-div {
