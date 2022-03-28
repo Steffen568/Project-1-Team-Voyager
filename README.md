@@ -1,4 +1,4 @@
-Link to live page:  https://travisswift.github.io/Project-1-Team-Voyager/
+Link to live page:  https://steffen568.github.io/Project-1-Team-Voyager/index.html
 
 Voyager Space Tracker
 
